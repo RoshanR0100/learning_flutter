@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Learning Flutter',
       theme: ThemeData(
-        primaryColor: kPrimaryColor,
+        primarySwatch: kPrimaryColor,
       ),
       home: WelcomeScreen(),
     );
